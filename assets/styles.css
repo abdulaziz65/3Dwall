@@ -285,8 +285,8 @@ ul{
     width: 70%;
     position: relative;
 }
-.main-wrapper .container header .header-con .header-col2 .header-img svg{
-    width: 100%;
+.main-wrapper .container header .header-con .header-col2 .header-img img{
+    width: 90%;
 }
 .main-wrapper .container header .header-con .header-col2 .header-img .pollball{
     width: 8%;
