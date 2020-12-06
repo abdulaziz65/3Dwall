@@ -185,14 +185,15 @@ ul{
     display: flex;
     justify-content: center;
     /* border: 1px solid #fff; */
-    z-index: 2;
+    z-index: 98;
 }
 .main-wrapper .container main .hang-ball-con .hang-ball{
     width: 16%;
     position: absolute;
     /* position: relative; */
     bottom:0;
-    transform-origin: 50% -380%;
+    transform-origin: 50% -60vh;
+    z-index: 98;
     animation: hangball-anim 1.5s alternate ease-in-out infinite;
 }
 .main-wrapper .container main .hang-ball-con .hang-ball:before{
@@ -203,6 +204,7 @@ ul{
     position: absolute;
     left: 50%;
     bottom: 100%;
+    z-index: 98;
     transform: translateX(-50%);
 }
 @keyframes hangball-anim{
@@ -283,7 +285,7 @@ ul{
     width: 70%;
     position: relative;
 }
-.main-wrapper .container header .header-con .header-col2 .header-img img{
+.main-wrapper .container header .header-con .header-col2 .header-img svg{
     width: 100%;
 }
 .main-wrapper .container header .header-con .header-col2 .header-img .pollball{
@@ -412,7 +414,7 @@ ul{
     width: 80%;
     height: 100%;
 }
-.main-wrapper .container .about-area .about-con .about-col1 .about-img img{
+.main-wrapper .container .about-area .about-con .about-col1 .about-img svg{
     width: 100%;
 }
 .main-wrapper .container .about-area .about-con .about-col1 .about-img .ball{
